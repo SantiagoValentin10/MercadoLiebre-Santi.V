@@ -1,0 +1,34 @@
+.div-perfil--usuario {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.div-perfil--usuario p {
+  width: 100%;
+}
+
+.div-perfil--usuario label {
+  font-weight: 400;
+}
+
+.div-perfil--usuario input {
+  margin-right: 5px;
+}
+
+.categ-interes-p {
+  margin-bottom: 20px;
+}
+
+.checkbox {
+  margin-right: 5px;
+}
+
+.div-foto--usuario {
+  margin: 2.5rem 0;
+}
+
+.div-buttons-form a {
+  text-decoration: none;
+  color: #fff;
+}

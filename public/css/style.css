@@ -1,0 +1,306 @@
+/* 
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a; */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Porcentage del font-size del browser del user */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+/* ////////////// */
+
+header {
+  width: 100vw;
+  background-color: #eac926;
+  padding-bottom: 2rem;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+.logo {
+  width: 46%;
+}
+
+.search-bar-div {
+  display: flex;
+  align-items: center;
+  width: 46%;
+  height: 4rem;
+}
+
+.search-bar {
+  width: 100%;
+  height: 100%;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border: 1px solid #ebebeb;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.search-btn {
+  height: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ebebeb;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.fa-magnifying-glass {
+  color: #666;
+  font-size: 1.5rem;
+}
+
+/* ////////////// */
+
+.compra-en-cuotas {
+  width: 100%;
+  font-size: 1.4rem;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+/* ////////////// */
+
+.main-nav {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  gap: 1rem;
+}
+
+.nav {
+  display: flex;
+  list-style-type: none;
+  gap: 1.5rem;
+}
+
+.links-header {
+  text-decoration: none;
+  color: #222;
+  font-size: 1.4rem;
+}
+
+/* ////////////// */
+
+.burger-menu {
+  display: block;
+  max-width: 5rem;
+  margin: 0 auto;
+  background-color: #1259c3;
+  color: #fff;
+  font-size: 2.5rem;
+  padding: 1.2rem 1.5rem;
+  border-radius: 5px;
+}
+
+/* ////////////// */
+
+.banner {
+  width: 100%;
+  vertical-align: middle;
+}
+
+/* ////////////// */
+
+main {
+  padding: 0rem 5%;
+  background-color: #ebebeb;
+}
+
+.titulares {
+  font-size: 2.4rem;
+  color: #666;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+/* ///// */
+
+article {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+article img {
+  padding: 1.5rem;
+}
+
+.descripcion-producto {
+  position: relative;
+  padding: 15px;
+  padding-top: 2rem;
+  border-top: 1px solid #ebebeb;
+}
+
+.fa-truck {
+  position: absolute;
+  top: -15px;
+  right: 20px;
+  display: block;
+  width: 30px;
+  height: 30px;
+
+  font-size: 1.6rem;
+  padding: 0.5rem;
+  color: #39b54a;
+  border: 1px solid #39b54a;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.precio-descuento-div {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.precios {
+  font-size: 1.8rem;
+}
+
+.descuentos {
+  font-size: 1.4rem;
+  color: #39b54a;
+}
+
+.descripciones-producto {
+  visibility: visible;
+  font-size: 1.6rem;
+  color: #666;
+  margin-top: 5px;
+}
+
+/* ///////////////////// */
+/* Form */
+/* ///////////////////// */
+
+.container--form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 5%;
+  background-color: #ebebeb;
+}
+
+.create-form {
+  padding: 2rem 1.5rem;
+  background-color: #ebebeb;
+}
+
+.divs-form {
+  margin-bottom: 1.5rem;
+  font-size: 1.6rem;
+}
+
+.divs-form label,
+.divs-form p {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #444;
+}
+
+.control {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 10px;
+  border: 2px solid #ebebeb;
+}
+
+.control:focus {
+  outline: none !important;
+  border: 2px solid #eac926;
+}
+
+.div-buttons-form {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 20px;
+}
+
+.div-buttons-form button {
+  width: 100%;
+  font-size: 20px;
+  padding: 1rem 1rem;
+  color: #fff;
+  background-color: #1259c3;
+  border: none;
+  border-radius: 8px;
+  transition: all 0.4s;
+}
+
+.div-buttons-form button:hover {
+  cursor: pointer;
+  background-color: #0022aa;
+}
+
+.div-buttons-form :nth-child(2) {
+  background-color: #999;
+}
+
+/* ///////////////////// */
+
+footer div {
+  text-align: center;
+  margin-top: 40px;
+  padding: 0 5rem;
+}
+
+footer div i {
+  color: #1259c3;
+  font-size: 4rem;
+  margin-bottom: 10px;
+  transition: all 0.4s;
+}
+
+footer div i:hover {
+  cursor: pointer;
+  color: #0022aa;
+}
+
+footer h3 {
+  color: #666;
+  font-size: 1.6rem;
+}
+
+footer p {
+  color: #666;
+}
+
+.copyright {
+  margin-top: 30px;
+  padding: 2rem;
+}
