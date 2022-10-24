@@ -1,11 +1,3 @@
-/* 
-Amarillo: #EAC926;
-Azul: #03264C;
-Celeste: #1259c3;
-Gris oscuro: #666;
-Gris claro: #ebebeb;
-Verde: #39b54a; */
-
 * {
   padding: 0;
   margin: 0;
@@ -13,8 +5,6 @@ Verde: #39b54a; */
 }
 
 html {
-  /* 10px / 16px = 0.625 = 62.5% */
-  /* Porcentage del font-size del browser del user */
   font-size: 62.5%;
 }
 
@@ -196,16 +186,12 @@ article img {
   color: #39b54a;
 }
 
-.descripciones-producto {
+.descripciones-de-producto {
   visibility: visible;
   font-size: 1.6rem;
   color: #666;
   margin-top: 5px;
 }
-
-/* ///////////////////// */
-/* Form */
-/* ///////////////////// */
 
 .container--form {
   display: flex;
